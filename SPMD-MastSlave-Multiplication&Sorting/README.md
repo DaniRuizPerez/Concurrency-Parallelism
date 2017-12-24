@@ -10,4 +10,4 @@ Contact [Daniel Ruiz Perez](mailto:druiz072@fiu.edu) for requests, bug reports a
 
 ## License
 
-The software in this repository is available under the GNU General Public License, version 3. See the [LICENSE](https://github.com/DaniRuizPerez/CharacterRecognizerLeagueOfLegends/blob/master/LICENSE) file for more information.
+The software in this repository is available under the GNU General Public License, version 3. See the [LICENSE](https://github.com/DaniRuizPerez/Concurrency-Parallelism/blob/master/LICENSE) file for more information.
