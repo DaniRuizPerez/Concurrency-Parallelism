@@ -9,6 +9,8 @@ This is a collection of projects that I developed for the Concurrency and Parall
 - Matrix-vector multiplication and sorting using SPMD with Master-Slave architecture
 
 ## Parallelism
+- Producers-Consumers using mutexes and dynamic balancing uwing mutexes
+- Sleeping barber with a waiting queue and dynamic balancing using mutexes
 
 ## Contact
 

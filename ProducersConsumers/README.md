@@ -1,7 +1,7 @@
 Producer Consumer Problem using Mutex
 ============
 
-This is a well known problem that I developed for the Concurrency and Parallelism course in the sophomore year of my undergrad in computer science at UDC (Spain). Producers and consumers run in a thread each and they synchronize using mutexes. Producers push elements in a "queue" and consumers pop them. It uses flow control to kill or create producers or consumers dynamically to balance the load.
+This is a well known problem that I developed for the Concurrency and Parallelism course in the sophomore year of my undergrad in computer science at UDC (Spain). Producers and consumers run in a thread each and they synchronize using mutexes. Producers push elements in a "queue" and consumers pop them. It creates producers or consumers dynamically to balance the load.
 
 
 ## Execution
