@@ -1,3 +1,3 @@
-matvec.c: 
-	mpicc matvec.c task-creation.o -lm
+main.c: 
+	mpicc main.c task-creation.o -lm
 
