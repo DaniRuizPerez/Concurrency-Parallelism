@@ -11,7 +11,7 @@ int MPI_FattreeColectiva(void *buf, int count, MPI_Datatype datatype, int root, 
 
 	int i=0;
 	int TAG = 0;
-	if (rank == root){ //hago dos bucles, uno desde cero al root-1 y otro desde root+1 al final xq a el mismo nos e envia
+	if (rank == root){ //hago dos bucles, uno desde cero al root-1 y otro desde root+1 al final xq a el mismo no se envia
 		for (i = root+1; i < numprocs; ++i)
 			MPI_Send(buf,count, datatype,i, TAG, comm);
 		for (i = 0; i < root -1; ++i)
